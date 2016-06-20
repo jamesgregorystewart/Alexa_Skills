@@ -1,0 +1,2 @@
+GetMaxTemperature what is the max temp on {day}
+GetMaxTemperature what is the max temp in the forecast
