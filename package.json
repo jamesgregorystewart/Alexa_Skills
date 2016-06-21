@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "James Stewart",
   "alexa": {
-    "applicationId":""//include applicationID
+    "applicationId":"amzn1.echo-sdk-ams.app.11c427b3-a58e-425b-82ef-66af7fc4edf2"
   },
   "dependencies": {
     "alexa-app": "^2.3.4",
