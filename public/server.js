@@ -5,7 +5,7 @@ AlexaAppServer.start({
 	// In reality, this data would come from a db or files, etc.
 	preRequest: function(json, req, res) {
 		console.log('preRequest fired');
-		json.userDetails = {'name': 'Vu Nguyen'};
+		json.userDetails = {'name': 'James Stewart'};
 	},
 	// Add a dummy attribute to the response
 	postRequest: function(json, req, res) {
