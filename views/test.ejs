@@ -259,7 +259,6 @@ e.$validators.maxlength=function(a,c){return 0>f||e.$isEmpty(c)||c.length<=f}}}}
 		function clone(o) {
 			return JSON.parse(JSON.stringify(o));
 		}
-		
 		// For Angular
 		var app = angular.module('alexa',[]);
 		app.controller('AlexaController',function($scope,$http) {
@@ -269,20 +268,17 @@ e.$validators.maxlength=function(a,c){return 0>f||e.$isEmpty(c)||c.length<=f}}}}
 			$scope.requestType = null;
 			$scope.session = {};
 			$scope.intent = null;
-			
 			$scope.changetype = function() {
 				$scope.request = clone($scope.templates[$scope.requestType]);
 				$scope.request.session.attributes = $scope.session;
 				$scope.intent = null;
 			};
-			
 			$scope.changeintent = function() {
 				$scope.request = clone($scope.templates['intent']);
 				$scope.request.session.attributes = $scope.session;
 				$scope.request.request.intent.slots={};
 				$scope.request.request.intent.name = $scope.intent;
 			}
-			
 			$scope.post = function() {
 				try {
 					$http.post(location.href, $scope.request).success(function(data) {
@@ -398,7 +394,7 @@ e.$validators.maxlength=function(a,c){return 0>f||e.$isEmpty(c)||c.length<=f}}}}
 	<body>
 
 	This is a simple testing utility to POST to your endpoint and simulate an Alexa request
-	
+
 <h2>Request</h2>
 <div>
 	Type:
