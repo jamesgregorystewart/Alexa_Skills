@@ -4,7 +4,7 @@
       "intent": "Ticker",
       "slots": [
         {
-          "name": "update",
+          "name": "updateAll",
           "type": "AMAZON.LITERAL"
         }
       ]
