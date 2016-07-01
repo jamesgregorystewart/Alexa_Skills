@@ -26,7 +26,7 @@ connection.onopen = function (session) {
 connection.onclose = function () {
   console.log("Websocket connection closed");
 }                      
-connection.open();
+//connection.open(); // todo: purpose of open connection? Stream of data useful?
 
 app.launch(function(req, res) {
 	res.say("CryptoTrader ready for orders!").shouldEndSession(false);
@@ -49,7 +49,7 @@ app.intent('ticker', {
 				console.log('request status:' + response.statusCode);
 			})
 			.on('end', function() {
-				var market = JSON.parse(str);
+				var market = JSON.parse(currency);
 				console.log(market); 
 			})
 	});
