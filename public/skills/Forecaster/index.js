@@ -36,7 +36,6 @@ function giveMeTheCity(data) {
 	console.log('city id: ' + data.city.id);
 	console.log('country: ' + data.city.country);
 	console.log('date: ' + data.list[0].dt_txt);
-	// console.log(data);
 }
 
 module.exports = app;
