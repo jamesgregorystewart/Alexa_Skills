@@ -1,0 +1,8 @@
+CreateTask I need to {clean the fridge|Task}
+CreateTask I need to {clean the fridge|Task} on {Day}
+CreateTask I need to {clean the fridge|Task} by {Day}
+CreateTask I need to {clean the fridge|Task} on {Day} at {Time}
+CreateTask I need to {clean the fridge|Task} by {Day} at {Time}
+CreateTask I need to {clean the fridge|Task} on {Day} by {Time}
+
+DeleteTask I no longer need to {clean the fridge|Task}

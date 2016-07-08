@@ -1,0 +1,36 @@
+{
+    "intents": [
+        {
+            "intent": "CreateTask",
+            "slots": [
+                {
+                    "name": "Task",
+                    "type": "AMAZON.LITERAL"
+                },
+                {
+                    "name": "Day",
+                    "type": "AMAZON.DATE"
+                },
+                {
+                    "name": "Time",
+                    "type": "AMAZON.TIME"
+                }
+            ]
+        },
+        {
+            "intent": "DeleteTask",
+            "slots": [
+                {
+                    "name": "Task",
+                    "type": "AMAZON.LITERAL"
+                }
+            ]
+        },
+        {
+            "intent": "AMAZON.CancelIntent"
+        },
+        {
+            "intent": "AMAZON.StopIntent"
+        }
+    ]
+}
