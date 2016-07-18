@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "James Stewart",
   "alexa": {
-    "applicationId":"arn:aws:lambda:us-east-1:644061387810:function:CryptoTrader"
+    "applicationId":""
   },
   "dependencies": {
     "alexa-app": "^2.3.4",
