@@ -4,7 +4,7 @@
   "description": "global package",
   "main": "index.js",
   "author": "James Stewart",
-  "alexa": {f
+  "alexa": {
     "applicationId":""
   },
   "dependencies": {
